@@ -50,7 +50,7 @@ Widget akan muncul ketika pengguna admin menekan tombol Finalisasikan Pembelian,
 Bentuk nota yang akan dihasilkan jika pengguna user maupun pengguna admin menyimpan nota barang yang mereka beli
 
 ## Penjelasan Penerapan Object-Oriented Programming pada Program yang Dibuat
-Pada program ini, Object-Oriented Programming berperan dengan sangat penting dalam pembuatan program dikarenakan banyaknya objek yang dihasilkan dari sebuah kelas seperti kelas itemBoxDetail() dan kelas itemDetail() pada program ini. Berikut kelas - kelas yang ada di dalam program dan kegunaannya : 
+Pada program ini, Object-Oriented Programming berperan dengan sangat penting dalam pembuatan program dikarenakan banyaknya objek yang dihasilkan dari sebuah kelas seperti pada program ini, banyak objek yang dihasilkan dari kelas itemBoxDetail() dan kelas itemDetail(). Berikut kelas - kelas yang ada di dalam program ini beserta kegunaannya : 
 | Nama Kelas | Objek yang dihasilkan | Kegunaannya |
 | --- | --- | --- |
 | PrintText() | order | Berfungsi untuk mencetak barang yang dibeli oleh pengguna |
