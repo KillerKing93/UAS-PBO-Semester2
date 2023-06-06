@@ -47,5 +47,6 @@ Widget akan muncul ketika pengguna admin menekan tombol Finalisasikan Pembelian,
 ## Gambar Cetak Nota Pembelian
 ![](https://github.com/KillerKing93/UAS-PBO-Semester2/blob/main/Gambar%20Program/Nota%20Pembelian.png)
 
+Bentuk nota yang akan dihasilkan jika pengguna user maupun pengguna admin menyimpan nota barang yang mereka beli
 
-## Penjelasan
+## Penjelasan Penerapan Object-Oriented Programming pada Program yang Dibuat
