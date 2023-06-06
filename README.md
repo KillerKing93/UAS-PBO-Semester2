@@ -51,7 +51,7 @@ Bentuk nota yang akan dihasilkan jika pengguna user maupun pengguna admin menyim
 
 ## Penjelasan Penerapan Object-Oriented Programming pada Program yang Dibuat
 Pada program ini, Object-Oriented Programming berperan dengan sangat penting dalam pembuatan program dikarenakan banyaknya objek yang dihasilkan dari sebuah kelas seperti pada program ini, banyak objek yang dihasilkan dari kelas itemBoxDetail() dan kelas itemDetail(). Berikut kelas - kelas yang ada di dalam program ini beserta kegunaannya : 
-| No | Nama Kelas | Objek yang dihasilkan | Kegunaannya |
+| No. | Nama Kelas | Objek yang dihasilkan | Kegunaannya |
 | --- | --- | --- | --- |
 | 1. | PrintText() | Order | Berfungsi untuk mencetak barang yang dibeli oleh pengguna |
 | 2. | ItemNodes() | Objek yang disimpan ke dalam kelas ItemsCore() | Berfungsi untuk menyimpan data - data barang ke dalam media penyimpanan yang mudah diolah |
