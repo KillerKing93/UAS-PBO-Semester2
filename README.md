@@ -50,11 +50,15 @@ Widget akan muncul ketika pengguna admin menekan tombol Finalisasikan Pembelian,
 Bentuk nota yang akan dihasilkan jika pengguna user maupun pengguna admin menyimpan nota barang yang mereka beli
 
 ## Penjelasan Penerapan Object-Oriented Programming pada Program yang Dibuat
-Pada program ini, Object-Oriented Programming berperan dengan sangat penting pada pembuatan program, sehingga banyak objek dapat dibuat dari sebuah kelas. Berikut kelas - kelas yang ada di dalam program dan kegunaannya : 
+Pada program ini, Object-Oriented Programming berperan dengan sangat penting dalam pembuatan program dikarenakan banyaknya objek yang dihasilkan dari sebuah kelas seperti kelas itemBoxDetail() dan kelas itemDetail() pada program ini. Berikut kelas - kelas yang ada di dalam program dan kegunaannya : 
 | Nama Kelas | Objek yang dihasilkan | Kegunaannya |
 | --- | --- | --- |
 | PrintText() | order | Berfungsi untuk mencetak barang yang dibeli oleh pengguna |
 | ItemNodes() | objek yang disimpan ke dalam kelas ItemsCore() | Berfungsi untuk menyimpan data - data barang ke dalam media penyimpanan yang mudah diolah |
 | Kelas ItemsCore() | self.IC | Berfungsi sebagai pengolah utama data - data dan informasi barang yang ada di dalam program. Objek ini sangat kritikal bagi kerja program ini karena tanpa kelas ini, program tidak akan tahu bagaimana cara menyimpan serta mengolah data - data dan informasi barang yang ada. |
 | ErrorPopUp() | error | Berfungsi untuk menampilkan peringatan kepada pengguna. Ada beberapa cara untuk mengimplementasikan hal ini, namun, dengan menggunakan objek dari kelas ErrorPopUp(), program tidak perlu mengkhawatirkan mengenai apa saja yang harus dilakukan untuk menghapus informasi dari ErrorPopUp() dan program tinggal menghapus objek instansi kelas ErrorPopUp() lalu membuat lagi objek instansi kelas ErrorPopUp() ketika program perlu untuk memberikan lagi peringatan kepada pengguna. |
-| itemBoxDetail() | Widget yang digunakan di dalam menu menghapus barang | Dengan menggunakan metode OOP, program tinggal menggunakan kelas itemBoxDetail() untuk membuat bajak objek instansi kelas itemBoxDetail() untuk menampilkan 
+| itemBoxDetail() | Widget yang digunakan di dalam menu menghapus barang | Dengan menggunakan metode OOP, program tinggal menggunakan kelas itemBoxDetail() untuk membuat banyak objek instansi kelas itemBoxDetail() untuk menampilkan informasi - informasi barang yang akan dihapus, dan ketika barang dihapus, program tinggal menghapus objek yang dihapus oleh pengguna |
+| itemDetail() | widget yang digunakan pada kelas ImagedItemNode() | widget ini penting untuk menampilkan informasi tambahan seperti "8 pak Pena" maupun "tas sekolah/kuliah" dan digunakan pada setiap objek instansi kelas ImagedItemNode(). |
+| Scrolly| widget gulir | Objek ini berperan penting untuk menyimpan banyak objek - objek instansi kelas lain sehingga pengguna dapat melihat informasi yang disediakan objek - objek lain dengan nyaman.
+|ImagedItemNode() | widget beserta informasi dan gambar barang serta opsi untuk mengatur jumlah barang yang dibeli | Objek ini sangat penting untuk menampilkan gambar dan informasi - informasi barang sehingga dengan mudah dapat dipahami oleh pengguna. Tanpa objek dari instansi kelas ini, maka barang - barang yang dapat dibeli oleh pengguna tidak akan dapat ditampilkan. |
+
